@@ -99,6 +99,7 @@ const FormBtnSubmit = (props) => {
 				{ text: "OK", onPress: () => setMeterNo("") },
 			]);
 			return;
+			
 		} else {
 			const newMeter = {
 				...meterData,
